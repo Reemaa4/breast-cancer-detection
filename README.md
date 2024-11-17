@@ -101,6 +101,9 @@ This function applies Gaussian blur to reduce noise in images. Gaussian blur is 
 
 implemented sharpening filters to enhance image edges and bring out subtle variations in contrast. This step is particularly important for detecting fine details, such as fractures in medical images. By improving the clarity of critical structures, sharpening not only enhances the overall image quality but also aids in more effective feature extraction. This ultimately contributes to higher diagnostic accuracy, as well as increased sensitivity and specificity in image analysis tasks.
 
+**4. Additional Contrast Enhancement
+Applied  Contrast Limited Adaptive Histogram Equalization (CLAHE) to boost contrast by adjusting local regions, enhancing details without amplifying noise.
+
 
 ## Implementation of Machine Learning Models
 
